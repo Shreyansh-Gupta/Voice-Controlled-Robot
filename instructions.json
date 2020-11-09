@@ -1,0 +1,35 @@
+{"instructions": [
+        {"tag": "1",
+         "patterns": ["Ready set", "Start", "Let's go", "Wake up", "Wakey wakey", "Ready", "Deploy", "Let's go bot", "Ready get set go", "Begin"],
+         "context_set": ""
+        },
+        {"tag": "0",
+         "patterns": ["Stop", "Pause", "Hey stop", "Wait", "Wait wait", "You need to stop now", "Pause a bit"],
+         "context_set": ""
+        },
+	{"tag": "2",
+         "patterns": ["Forward", "Straight up", "Go straight"],
+         "context_set": ""
+        },
+	{"tag": "3",
+         "patterns": ["Backward", "Back back", "Come back"],
+         "context_set": ""
+        },
+        {"tag": "4",
+         "patterns": ["Fast", "Faster", "Speed up", "Increase speed", "Boost"],
+         "context_set": ""
+        },
+        {"tag": "5",
+         "patterns": ["Slow", "Slow down", "Decrease speed", "Cool down", "Hey you slow slow"],
+         "context_set": ""
+        },
+        {"tag": "6",
+         "patterns": ["Right", "Turn right", "Turn opposite of left", "Right right", "You must go right", "You must turn opposite of left"],
+         "context_set": ""
+        },
+        {"tag": "7",
+         "patterns": ["Left", "Turn left", "Turn opposite of right", "Left left", "You must go left", "You must go opposite of right"],
+         "context_set": ""
+        }
+   ]
+}
